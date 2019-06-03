@@ -41,7 +41,7 @@ class App extends Component {
 
   getDocuments = collection => this.state.data[collection] || []
 
-  render () {
+  render() {
     const globalSettings = this.getDocument('settings', 'global')
     const {
       siteTitle,
@@ -64,7 +64,6 @@ class App extends Component {
         <div className='React-Wrap'>
           <ScrollToTop />
           <ServiceWorkerNotifications reloadOnUpdate />
-          <GithubCorner url='https://github.com/Jinksi/netlify-cms-react-starter' />
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
