@@ -1,12 +1,11 @@
-siteTitle: Netlify CMS + React Starter
-siteUrl: 'https://netlify-cms-react-starter.netlify.com'
+siteTitle: Hitesh Joshi
+siteUrl: 'https://hiteshjoshi.com'
 siteDescription: >-
-  A starter project for creating lightning-fast, offline-first websites with
-  Netlify CMS and React.
+  Serial Tech Entrepreneur with focus on enterprise solutions. Strong tech
+  background with hardware + software experience. (AI/NLP)
 socialMediaCard:
   image: /images/uploads/card-og.png
-  twitterCreatorAccount: '@Jinksi'
+  twitterCreatorAccount: '@hiteshjoshi'
   twitterSiteAccount: ''
-headerScripts: |-
-  <!-- Add your analytics scripts / verification meta here -->
-enableServiceWorker: false
+headerScripts: <!-- Add your analytics scripts / verification meta here -->
+enableServiceWorker: true
